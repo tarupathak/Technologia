@@ -16,7 +16,7 @@ const Navbar = () => {
         <div>Resources <img src={dropdown} alt="dropdown" className="drop"/></div>
         <div>Portfolio</div>
       </div>
-      <div id="touch-btn">
+      <div className="touch-btn">
         <button>Get in touch</button>
       </div>
     </div>

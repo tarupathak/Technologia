@@ -1,7 +1,68 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.bg-img{
-    height: 64.63vw;
+.bg-img {
+  height: 50vw;
+  width: 98.7vw;
 }
+
+#abs-text {
+  position: absolute;
+  margin-top: -45vw;
+  z-index: 1;
+  margin-left: 2vw;
+}
+
+#large-txt {
+  color: white;
+  font-size: 6.3vw;
+  width: 65vw;
+  font-weight: 700;
+}
+
+#sml-txt {
+  color: white;
+  font-size: 2.7vw;
+  width: 65vw;
+}
+
+#txt {
+  color: black;
+  font-size: 3.7vw;
+  width: 55vw;
+  font-weight:700;
+  text-align:left;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8vw;
+}
+
+.touch-btn1 button{
+    height: 3.6vw;
+  width: 12vw;
+  border-radius: .4vw;
+  border-style: none;
+  margin-right: 43vw;
+  margin-top: 2vw;
+  font-size: 1vw;
+  color:blue;
+  background-color: #dee0ff;
+  font-weight: 700;
+
+}
+
+.touch-btn1 button:hover{
+    color:black;
+    background-color: white;
+} 
