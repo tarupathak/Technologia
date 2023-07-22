@@ -343,7 +343,7 @@ body {
 }
 
 .flex-box span {
-    margin: 1vw;
+  margin: 1vw;
   background-color: white;
   height: 3vw;
   border-radius: 3vw;
@@ -353,4 +353,61 @@ body {
   width: 7vw;
   text-align: center;
   color: #242627;
+}
+
+.flex-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 2vw;
+}
+
+.head3 {
+  font-size: 4vw;
+  font-weight: 700;
+  color: black;
+  width: 50vw;
+}
+
+.line {
+  height: 0.02vw;
+  width: 94vw;
+  margin-top: 5vw;
+  background-color: grey;
+}
+
+.flex3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.flex4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 4vw;
+    margin-top: 3vw;
+    justify-content: space-around;
+}
+
+.big{
+    font-size: 3vw;
+}
+
+.small{
+    font-size:1.7vw ;
+}
+
+.touch-btn5{
+    color: white;
+    background-color: blue;
+    border-style: none;
+    height: 3vw;
+    width: 8vw;
+    margin: 3vw;
+    font-size: 1vw;
+    border-radius: .3vw;
 }

@@ -195,6 +195,31 @@ function App() {
           </div>
         </div>
       </section>
+      <section className="flex-sec">
+        <div className="head3">Mobile app development for funded companies</div>
+        <div className="line"></div>
+        <div className="flex3">
+          <div className="flex4">
+            <div className="big">10 Years</div>
+            <div className="small">in business</div>
+          </div>
+          <div className="flex4">
+            <div className="big">7+ Years</div>
+            <div className="small">in app development</div>
+          </div>
+          <div className="flex4">
+            <div className="big">10+ Startups</div>
+            <div className="small">unicorns built</div>
+          </div>
+          <div className="flex4">
+            <div className="big">#1 Development</div>
+            <div className="small">company in USA</div>
+          </div>
+          <div>
+            <button className="touch-btn5">Get in touch</button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
