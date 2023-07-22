@@ -9,6 +9,7 @@ import hands from "./Assets/hands.webp";
 import grow from "./Assets/grow.webp";
 import pic from "./Assets/pic.webp";
 import picture from "./Assets/gg.webp";
+import Card from "./Components/Card";
 
 function App() {
   return (
@@ -218,6 +219,12 @@ function App() {
           <div>
             <button className="touch-btn5">Get in touch</button>
           </div>
+        </div>
+      </section>
+      <section>
+        <div className="head4">Latest Insight</div>
+        <div className="flex-sec1">
+          <Card />
         </div>
       </section>
     </div>
