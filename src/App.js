@@ -8,6 +8,7 @@ import icon from "./Assets/icon.svg";
 import hands from "./Assets/hands.webp";
 import grow from "./Assets/grow.webp";
 import pic from "./Assets/pic.webp";
+import picture from "./Assets/gg.webp";
 
 function App() {
   return (
@@ -148,6 +149,51 @@ function App() {
         </div>
         <div className="blue-col">View all services</div>
         <div className="blue-line"></div>
+      </section>
+      <section className="center1">
+        <div className="divi1">
+          <div className="one">
+            <div className="head1">Organizations recognized our work</div>
+            <div className="inner">
+              <div>Forbes</div>
+              <div>Google</div>
+              <div>Clutch</div>
+            </div>
+            <div className="touch-btn1">
+              <button>View more awards</button>
+            </div>
+          </div>
+          <div className="three">
+            <div className="head2">
+              Tecnologia has been recognized as a Leader in the 2022 Gartner®
+            </div>
+            <div className="flex-box">
+              <span>JavaScript</span> <span>NodeJS</span>{" "}
+              <span>TypeScript</span> <span>React</span> <span>Swift</span>{" "}
+              <span>Java</span> <span>Objective-C</span> <span>RxJava</span>
+            </div>
+          </div>
+        </div>
+        <div className="divi1">
+          <div className="two">
+            <div className="head2">
+              Tecnologia has been recognized as a Leader in the 2022 Gartner®
+            </div>
+            <div>
+              <div className="blue-col">View all services</div>
+              <div className="blue-line"></div>
+            </div>
+          </div>
+          <div className="four">
+            <div className="head1">Organizations recognized our work</div>
+            <div className="round-img">
+              <img src={picture} alt="picture" />
+            </div>
+            <div className="touch-btn1">
+              <button>View more awards</button>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );
