@@ -1,0 +1,44 @@
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  position: fixed;
+  height: 5vw;
+  width: 100%;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#links div {
+  padding: 1vw;
+  color: white;
+  font-size: 1.2vw;
+}
+
+.drop {
+  width: 1vw;
+}
+
+#logo img{
+    width: 12vw;
+}
+
+#touch-btn button {
+  height: 3.6vw;
+  width: 9vw;
+  border-radius: .4vw;
+  border-style: none;
+  font-size: 1vw;
+  color:blue;
+  background-color: #dee0ff;
+  font-weight: 700;
+  margin-right: 4vw;
+}
