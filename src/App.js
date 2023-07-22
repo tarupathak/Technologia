@@ -146,6 +146,8 @@ function App() {
             <div>Arrow</div>
           </div>
         </div>
+        <div className="blue-col">View all services</div>
+        <div className="blue-line"></div>
       </section>
     </div>
   );
