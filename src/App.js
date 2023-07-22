@@ -2,6 +2,12 @@ import React from "react";
 import Navbar from "./Components/Navbar";
 import bg from "./Assets/Bg-img.webp";
 import "./App.css";
+import img2 from "./Assets/img2.webp";
+import clutch from "./Assets/clutch-logo.webp";
+import icon from "./Assets/icon.svg";
+import hands from "./Assets/hands.webp";
+import grow from "./Assets/grow.webp";
+import pic from "./Assets/pic.webp";
 
 function App() {
   return (
@@ -17,9 +23,129 @@ function App() {
           Helping companies succeed through customized software solutions
         </div>
       </div>
+      <section className="center">
+        <div id="txt">
+          Experienced teams and a agile framework, we prioritise the commercial
+          goals of the client to deliver the highest business value.
+        </div>
+        <div className="touch-btn1">
+          <button>Why to choose us</button>
+        </div>
+      </section>
+      <section className="center">
+        <div className="img1">
+          <img src={img2} alt="working-img" loading="lazy" />
+        </div>
+        <div className="img2">
+          <img src={clutch} alt="clutch-logo-img" loading="lazy" />
+          <div>Top-Notch Developers</div>
+        </div>
+      </section>
       <section>
-        <div id="txt">Experienced teams and a agile framework, we prioritise the commercial goals of the client to deliver the highest business value.</div>
-        <div className="touch-btn1" ><button>Why to choose us</button></div>
+        <p id="txt1">We provide clients with award-winning services</p>
+        <div className="box">
+          <div className="boxes">
+            <img src={icon} alt="icon" />
+            <div className="lar-txt">NFT Development</div>
+            <div className="small-txt">
+              Non Fundible Tokens are in Trend. We've been building them since
+              2016.
+            </div>
+          </div>
+          <div className="boxes">
+            <img src={icon} alt="icon" />
+            <div className="lar-txt">Mobile App Development</div>
+            <div className="small-txt">
+              From Social Media Apps like TikTok to fitness Tracking and
+              Marketplaces.
+            </div>
+          </div>
+          <div className="boxes">
+            <img src={icon} alt="icon" />
+            <div className="lar-txt">Web App Development</div>
+            <div className="small-txt">
+              Non Fundible Tokens are in Trend. We've been building them since
+              2016.
+            </div>
+          </div>
+          <div className="boxes">
+            <img src={icon} alt="icon" />
+            <div className="lar-txt">Software Development</div>
+            <div className="small-txt">
+              From a custom CRM to Transportation Management System, we've built
+              it all.
+            </div>
+          </div>
+        </div>
+        <div className="blue-col">View all services</div>
+        <div className="blue-line"></div>
+      </section>
+      <section className="center">
+        <div id="txt3">Apps we built been trending on the App Store</div>
+        <div id="app-trend">
+          <span id="box1">
+            <div className="top">
+              <div>01.</div>
+              <div>Showcase</div>
+            </div>
+            <div className="hori">
+              <div>
+                <div className="head">scuola</div>
+                <div className="tail">
+                  Convenience, savings and rewards at your fingertips
+                </div>
+              </div>
+              <div>
+                <img src={hands} alt="hands" />
+              </div>
+            </div>
+            <div className="bottom">
+              <div>Lounge Project</div>
+              <div>Arrow</div>
+            </div>
+          </span>
+          <span id="box2">
+            <div className="top">
+              <div>02.</div>
+              <div>Showcase</div>
+            </div>
+            <div className="hori">
+              <div>
+                <div className="head">JOLIE</div>
+                <div className="tail">
+                  Private trust management and trading platform
+                </div>
+              </div>
+              <div>
+                <img src={grow} alt="hands" />
+              </div>
+            </div>
+            <div className="bottom">
+              <div>Lounge Project</div>
+              <div>Arrow</div>
+            </div>
+          </span>
+        </div>
+
+        <div id="box3">
+          <div className="top">
+            <div>03.</div>
+            <div>Showcase</div>
+          </div>
+          <div className="hori">
+            <div>
+              <div className="head">Skole</div>
+              <div className="tail">Online platform for distance learning</div>
+            </div>
+            <div>
+              <img src={pic} alt="hands" />
+            </div>
+          </div>
+          <div className="bottom">
+            <div>Lounge Project</div>
+            <div>Arrow</div>
+          </div>
+        </div>
       </section>
     </div>
   );
