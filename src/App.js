@@ -10,6 +10,7 @@ import grow from "./Assets/grow.webp";
 import pic from "./Assets/pic.webp";
 import picture from "./Assets/gg.webp";
 import Card from "./Components/Card";
+import Form from "./Components/Form";
 
 function App() {
   return (
@@ -226,6 +227,9 @@ function App() {
         <div className="flex-sec1">
           <Card />
         </div>
+      </section>
+      <section className="center">
+        <Form />
       </section>
     </div>
   );
