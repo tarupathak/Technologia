@@ -14,13 +14,13 @@ const FooterOne = () => {
         </div>
       </div>
       <div className="foot-flex">
-    <div className="head-flex">New York</div>
-    <div>Seventh Ave, 20th Floor New York, NY 10018 </div>
-    <div> T: 1-800-356-8933</div>
+        <div className="head-flex">New York</div>
+        <div>Seventh Ave, 20th Floor New York, NY 10018 </div>
+        <div> T: 1-800-356-8933</div>
       </div>
       <div className="foot-flex">
         <div className="head-flex">Boston</div>
-    <div>45 Myrtle Street, 02114 Boston, MA </div>
+        <div>45 Myrtle Street, 02114 Boston, MA </div>
         <div>T: 1-900-322-8422</div>
         <div className="mar-top">
           <div className="blue-col">View all services</div>

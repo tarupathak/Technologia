@@ -13,6 +13,7 @@ import Card from "./Components/Card";
 import Form from "./Components/Form";
 import FooterOne from "./Components/FooterOne";
 import Employee from "./Components/Employee";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -247,6 +248,7 @@ function App() {
       <section>
         <FooterOne />
       </section>
+      <section><Footer /></section>
     </div>
   );
 }

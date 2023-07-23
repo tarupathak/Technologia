@@ -1,7 +1,5 @@
 import React from "react";
 import "./Components.css";
-import design from "../Assets/design.svg";
-
 const Form = () => {
   return (
     <div className="form">

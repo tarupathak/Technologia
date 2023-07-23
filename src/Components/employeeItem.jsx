@@ -23,6 +23,5 @@ export const employeeItems = [
     pic: joe,
     heading: "Anton Thorne",
     role: "Senior Developer",
-    
   },
 ];

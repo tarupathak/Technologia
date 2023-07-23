@@ -209,3 +209,56 @@
   color: grey;
   font-weight: 500;
 }
+
+#footerBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90vw;
+    margin-left: 5vw;
+}
+
+#footerBox div ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+#footerBox div ul li{
+    word-spacing: 0.1vw;
+    margin-bottom: 1vw;
+    cursor: pointer;
+}
+
+#footerBox div ul li:hover{
+    color: #010ED0;
+}
+
+#footerBox div ul button{
+    padding: 1vw;
+    border-radius: .4vw;
+    border-style: none;
+    font-size: 1vw;
+    color:blue;
+    background-color: #dee0ff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#footerBox div ul button:hover {
+    background-color: white;
+}
+
+#footerBottomStart {
+    margin-left: 2vw;
+    display: flex;
+    width: 35vw;
+    justify-content: space-evenly;
+}
+
+#footerBottomEnd{
+    margin-right: 2vw;
+    display: flex;
+    width: 40vw;
+    justify-content: space-evenly;
+    float: right;
+}
