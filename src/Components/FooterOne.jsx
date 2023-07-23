@@ -10,7 +10,7 @@ const FooterOne = () => {
           <input placeholder="Don't miss our updates" />
         </div>
         <div className="touch-btn">
-          <button>Send -></button>{" "}
+          <button>Send </button>{" "}
         </div>
       </div>
       <div className="foot-flex">

@@ -429,3 +429,16 @@ body {
     margin-left: 2vw;
     margin-top: 15vw;
   }
+
+  .head8{
+    margin-top: 5vw;
+    margin-left: 3vw;
+    font-size: 4vw;
+    font-weight: 700;
+    color: black;
+    width: 50vw;
+  }
+
+  section{
+    margin-top: 8vw;
+  }

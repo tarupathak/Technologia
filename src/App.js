@@ -12,6 +12,7 @@ import picture from "./Assets/gg.webp";
 import Card from "./Components/Card";
 import Form from "./Components/Form";
 import FooterOne from "./Components/FooterOne";
+import Employee from "./Components/Employee";
 
 function App() {
   return (
@@ -224,6 +225,17 @@ function App() {
         </div>
       </section>
       <section>
+        <div className="head8">Meet some of our 80+ team members</div>
+        <div>
+          <div className="blue-col">View all team</div>
+          <div className="blue-line"></div>
+        </div>
+        <div className="flex-sec1">
+          {" "}
+          <Employee />
+        </div>
+      </section>
+      <section>
         <div className="head4">Latest Insight</div>
         <div className="flex-sec1">
           <Card />
@@ -232,7 +244,9 @@ function App() {
       <section className="center">
         <Form />
       </section>
-      <section><FooterOne /></section>
+      <section>
+        <FooterOne />
+      </section>
     </div>
   );
 }
