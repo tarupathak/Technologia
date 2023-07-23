@@ -11,6 +11,7 @@ import pic from "./Assets/pic.webp";
 import picture from "./Assets/gg.webp";
 import Card from "./Components/Card";
 import Form from "./Components/Form";
+import FooterOne from "./Components/FooterOne";
 
 function App() {
   return (
@@ -231,6 +232,7 @@ function App() {
       <section className="center">
         <Form />
       </section>
+      <section><FooterOne /></section>
     </div>
   );
 }

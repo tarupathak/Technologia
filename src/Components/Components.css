@@ -105,6 +105,8 @@
 
 }
 
+
+
 #form-tail div{
     color: white;
     font-size: 2vw;
@@ -138,4 +140,44 @@
 .touch-btn6 button:hover{
     color:black;
     background-color: white;
+}
+
+.foot-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3vw;
+}
+
+.foot-flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.foothead{
+    width: 32vw;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.foot-flex input {
+    height: 3vw;
+    width: 30vw;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+}
+
+.head-flex{
+    font-size: 1.8vw;
+    font-weight: 700;
+    margin-bottom: 3vw;
+}
+
+.mar-top{
+    margin-left: -1vw;
+    margin-top: 3vw;
 }
